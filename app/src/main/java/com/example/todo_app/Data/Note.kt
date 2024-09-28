@@ -5,7 +5,7 @@ import androidx.room.PrimaryKey
 
 @Entity
 data class Note (
-    val Title: String,
+    val title: String,
     val description: String,
     val dateAdded: Long,
 
